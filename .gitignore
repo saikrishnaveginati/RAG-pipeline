@@ -1,0 +1,25 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+
+# Environment variables
+.env
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Artifacts (do NOT commit FAISS indexes or chunks)
+artifacts/*.index
+artifacts/*.json
+
+# Logs
+*.log
